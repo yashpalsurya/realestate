@@ -16,7 +16,7 @@ const Footer = () => {
           <h2 className="text-xl font-bold mb-4">Quick Links</h2>
           <Link to="/" className="mb-2 hover:text-sky-300 transition duration-300">Home</Link>
           <Link to="/about" className="mb-2 hover:text-sky-300 transition duration-300">About</Link>
-          <Link to="/project" className="mb-2 hover:text-sky-300 transition duration-300">Projects</Link>
+          <Link to="/projects" className="mb-2 hover:text-sky-300 transition duration-300">Projects</Link>
           <Link to="/contact" className="hover:text-sky-300 transition duration-300">Contact</Link>
         </div>
 

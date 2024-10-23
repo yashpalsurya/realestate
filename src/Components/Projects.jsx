@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 import Property2 from './Property2';
+import Rowhouse from './Rowhouse';
 
 const Projects = () => {
   const apartments = [
@@ -64,6 +65,7 @@ const Projects = () => {
       </div>
     </div>
     <Property2/>
+    <Rowhouse/>
     <Footer/>
     </>
   );
