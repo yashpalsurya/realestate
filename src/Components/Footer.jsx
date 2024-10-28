@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r bg-black text-white py-10 mt-16">
+    <footer className="bg-gradient-to-r bg-[#0D0C0D] text-white py-10 mt-16">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 px-5">
         {/* Logo Section */}
         <div className="flex flex-col items-center md:items-start">
-          <img src='' alt="Company Logo" className="w-32 mb-4" />
+          <img src="https://st4.depositphotos.com/16030310/25210/v/450/depositphotos_252108254-stock-illustration-vector-illustration-silver-golden-letters.jpg" alt="Company Logo" className="w-32 mb-4" />
           <p className="text-center md:text-left italic">Your trusted partner in development.</p>
         </div>
 
@@ -20,14 +21,8 @@ const Footer = () => {
           <Link to="/contact" className="hover:text-sky-300 transition duration-300">Contact</Link>
         </div>
 
-        {/* Projects Section */}
-        <div className="flex flex-col">
-          <h2 className="text-xl font-bold mb-4">Projects</h2>
-          <p className="mb-2">- Project 1</p>
-          <p className="mb-2">- Project 2</p>
-          <p className="mb-2">- Project 3</p>
-          <p className="mb-2">- Project 4</p>
-        </div>
+       
+      
 
         {/* Contact Section */}
         <div className="flex flex-col">
