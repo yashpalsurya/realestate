@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeSection = () => {
   return (
-    <div className="bg-gray-100 mt-8">
+    <div className="bg-gray-100">
       {/* Top Banner Section */}
       <div className="relative w-full h-[400px]">
         <img
